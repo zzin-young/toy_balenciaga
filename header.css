@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+#title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.header__column__category {
+  font-size: 15px;
+  color: gray;
+  padding-left: 16px;
+}
+
+.header__column:nth-child(2) > a {
+  font-size: 12px;
+  padding-right: 20px;
+}

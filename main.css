@@ -1,0 +1,12 @@
+@import "header.css";
+
+body {
+  all: unset;
+  height: 1000%;
+}
+
+a {
+  all: unset;
+  color: black;
+  cursor: pointer;
+}
