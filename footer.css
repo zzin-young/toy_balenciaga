@@ -1,0 +1,36 @@
+.footer-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height:60%
+}
+.top{
+    background: #808080;
+    height:20%
+}
+
+
+.gray-area {
+    background: #808080;
+    
+    
+    border: 1px solid #000000;
+}
+
+
+.cookie {
+    background: #ffffff;
+    height:20%;
+}
+
+.cookie-ment {
+    text-align: left;
+   
+}
+
+.cookie-setting {
+    text-align: right;
+}
+.ments-in-area {
+    list-style: none;
+}
